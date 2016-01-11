@@ -1,4 +1,4 @@
-package strategy.pattern;
+package design.pattern.strategy;
 
 public class Display1 implements IDisplayBehavior  
 {  

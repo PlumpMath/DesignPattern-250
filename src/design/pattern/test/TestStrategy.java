@@ -1,6 +1,13 @@
-package strategy.pattern;
+package design.pattern.test;
 
-public class Test {
+import design.pattern.strategy.AttackJY;
+import design.pattern.strategy.DefendTBS;
+import design.pattern.strategy.Display1;
+import design.pattern.strategy.Role;
+import design.pattern.strategy.RoleA;
+import design.pattern.strategy.RunJCTQ;
+
+public class TestStrategy {
 
 	/**
 	 * @param args

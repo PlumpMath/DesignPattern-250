@@ -1,7 +1,7 @@
-package strategy.pattern;
+package design.pattern.strategy;
 
 public abstract class Role {
-	protected String name;
+	public String name;
 
 	protected IDefendBehavior defendBehavior;
 	protected IDisplayBehavior displayBehavior;
@@ -28,19 +28,19 @@ public abstract class Role {
 		return this;
 	}
 
-	protected void display() {
+	public void display() {
 		displayBehavior.display();
 	}
 
-	protected void run() {
+	public void run() {
 		runBehavior.run();
 	}
 
-	protected void attack() {
+	public void attack() {
 		attackBehavior.attack();
 	}
 
-	protected void defend() {
+	public void defend() {
 		defendBehavior.defend();
 	}
 
